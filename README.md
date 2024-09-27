@@ -3,10 +3,11 @@
 ## Introduction
 The objective of this project is to detect and track players, referees, and footballs in video footage using YOLO, one of the leading AI models for object detection. We will also train the model to enhance its accuracy. In addition, we'll assign players to their respective teams by analyzing the color of their jerseys through pixel segmentation and clustering using Kmeans. With this data, we'll be able to calculate each team's ball possession percentage during the game. Moreover, optical flow will be used to measure camera movement across frames, helping us accurately track player movements. We'll also apply perspective transformation to account for depth and distance in the scene, enabling the measurement of player movement in meters instead of pixels. Lastly, we will calculate each player's speed and the distance they cover.
 
+![Screenshot](output_videos/screenshot.png)
+
 The reference for this project is the video "Build an AI/ML Football Analysis System with YOLO, OpenCV, and Python" from the Code In a Jiffy YouTube channel, which provides an excellent foundation and insights for implementing such a system. This project covers multiple key concepts and solves real-world challenges, making it ideal for both newcomers and experienced machine learning engineers.
 
 You can find the original video at the following link: [Code In a Jiffy - Build an AI/ML Football Analysis system.](https://www.youtube.com/watch?v=neBZ6huolkg&ab_channel=CodeInaJiffy)
-![Screenshot](output_videos/screenshot.png)
 
 ## Modules Used
 The following modules are used in this project:
